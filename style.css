@@ -1,0 +1,88 @@
+body{
+    background-color: #c828d4;
+    padding: 0;
+    margin: 0;
+}
+.ring{
+    background-color: #ececec;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 
+    -10px -10px 15px rgba(255,255,255,0.3),
+    10px 10px 15px rgba(70,70,70,0.15),
+    inset -10px -10px 15px rgba(255,255,255,0.3),
+    inset 10px 10px 15px rgba(70,70,70,0.15);
+    border: 15px solid #ececec;
+    border-radius: 10%;
+}
+.ring4{
+    height: 30px;
+    width: 30px;
+    animation: agathe4 2.5s infinite;
+}
+@keyframes agathe4{
+    0%{
+        background-color: #ececec;
+    }
+    20%{
+        background-color: #3723cd;
+    }
+    100%{
+        background-color: #070546;
+    }
+}
+
+.ring3{
+    height: 120px;
+    width: 120px;
+    animation: agathe3 2.5s infinite;
+}
+@keyframes agathe3{
+    20%{
+        background-color: #ececec;
+    }
+    40%{
+        background-color: #1f9c2e;
+    }
+    100%{
+        background-color: #ffad00;
+    }
+}
+
+.ring2{
+    height: 200px;
+    width: 200px;
+    animation: agathe2 2.5s infinite;
+}
+@keyframes agathe2{
+    40%{
+        background-color: #ececec;
+    }
+    60%{
+        background-color: #a2132b;
+    }
+    100%{
+        background-color: #7fa2a3;
+    }
+}
+
+.ring1{
+    height: 280px;
+    width: 280px;
+    animation: agathe1 2.5s infinite;
+}
+@keyframes agathe1{
+    60%{
+        background-color: #ececec;
+    }
+    80%{
+        background-color: #ffad00;
+    }
+    100%{
+        background-color: #0a8187;
+    }
+}
